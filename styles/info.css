@@ -1,0 +1,37 @@
+#musico {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+#musico .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.info-musico {
+	margin: 20px;
+	
+}
+
+.info-musico img {
+	width: 195px;
+	height: 195px;
+	border-radius: 50%;
+	border:7px solid #fff;
+}
+
+@media (min-width: 480px) {
+	.info-musico {
+		width: 40%; /*40 porciento del padre===contenedor*/
+	}
+}
+
+@media (min-width: 1024px) {
+	.info-musico {
+		width: auto;
+	}
+}
